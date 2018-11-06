@@ -1,4 +1,4 @@
-import { 
+import {
   FETCH_CHARACTERS_SUCCESSFUL,
 } from '../actions/charactersActions';
 

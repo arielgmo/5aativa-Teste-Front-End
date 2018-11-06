@@ -1,0 +1,9 @@
+.header-container {
+  width: 100%;
+  background-color: #ed1d24;
+}
+
+.header-logo {
+  width: 240px;
+  height: 95px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import HeaderMenu from './HeaderMenu';
 import MainContentContainer from './MainContentContainer';
+import Footer from './Footer';
 import store from '../store';
 
 const MainContainer = () => (
@@ -9,6 +10,7 @@ const MainContainer = () => (
     <div>
       <HeaderMenu />
       <MainContentContainer />
+      <Footer />
     </div>
   </Provider>
 );
