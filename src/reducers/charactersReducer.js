@@ -2,7 +2,12 @@ import {
   FETCH_CHARACTERS_SUCCESSFUL,
 } from '../actions/charactersActions';
 
-export default function charactersReducer(state = {}, action) {
+const INITIAL_STATE = {
+  total: 0,
+  characters: [],
+};
+
+export default function charactersReducer(state = INITIAL_STATE, action) {
   switch (action.type) {
     case FETCH_CHARACTERS_SUCCESSFUL:
       return {
